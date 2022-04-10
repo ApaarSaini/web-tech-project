@@ -1,0 +1,70 @@
+::-webkit-scrollbar{
+  background-color: black;
+  height: 12px;
+  width: 12px;
+  
+  }
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(to bottom,transparent 1%,#842629 10%,transparent 100%)
+  }
+  ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(to bottom,transparent 1%,#cd353a 10%,transparent 100%)
+  }
+  
+.main-bg{
+  background-image: url(https://static.wikia.nocookie.net/jujutsu-kaisen/images/0/08/Site-background-dark/revision/latest?cb=20211022032453);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #842629;
+  padding: 60px;
+}
+.body{
+  background-color:  #000000e8;
+  width:90%;
+  margin: auto;
+  height:85% ;
+  padding-top: 10px;
+
+}
+
+.main-body{
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+#head{
+  border: 1.5px solid#842629;
+  display: block;
+  color: #ffffff;
+  background-color:#842629;
+  font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+
+}
+a{
+  color:#842629 ;
+  text-decoration: none;
+}
+a:hover{
+  color:#cd353a;
+  text-decoration: underline;
+}
+p{
+  color: rgb(255, 255, 255);
+  font-size: inherit;
+    font-weight: 500;
+    line-height: 1.75;
+    margin: 0 0 24px;
+    overflow-wrap: break-word;
+}
+
+.img {
+
+  margin: 10px;
+  border: 1.5px solid #842629 ;
+  padding: 2px;
+  border-radius: 4px;
+}
